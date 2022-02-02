@@ -29,3 +29,7 @@ This repository facilitates transparency between Noop engineers & our users by p
 - Public Milestone Board
 - Issue Intake Forms & Board
 - Enhancement Intake Forms & Board
+
+## Code of Conduct
+
+Please see our [code of conduct](./CODE-OF-CONDUCT.md).
