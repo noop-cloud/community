@@ -13,7 +13,7 @@ If you are new to Noop or looking for more information on a particular subject, 
 
 ## Support
 
-Bugs & Enhancement requests for Noop software can be filed as issues in this repository. If you find a problem with the software, first [browse the existing issues](https://github.com/noop-inc/community/issues) or search from the bar at the top (`s` to focus) and then, if you don't find your issue, [open a new issue](https://github.com/community/for-mac/issues/new).
+Bugs & Enhancement requests for Noop software can be filed as issues in this repository. If you find a problem with the software, first [browse the existing issues](https://github.com/noop-inc/community/issues) or search from the bar at the top (`s` to focus) and then, if you don't find your issue, [open a new issue](https://github.com/noop-inc/community/issues/new).
 
 - [File a bug](https://github.com/noop-inc/engagement/issues/new?assignees=noop-cloud%2Fnoop&labels=bug%2Ctriage&template=bug.yaml&title=%5BBug%5D%3A+)
 - [Request an enhancement](https://github.com/noop-inc/engagement/issues/new?assignees=noop-cloud%2Fnoop&labels=enhancement%2Cfeature%2Creview&template=feature.yaml&title=%5BFeature%5D%3A+)
