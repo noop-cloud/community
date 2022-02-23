@@ -7,6 +7,7 @@ Noop is free to download!
 - [🍎 Latest MacOS](https://download.noop.dev/desktop/latest-mac.dmg)
 - :window: Support for Windows Coming Soon
 - [🐧 Latest Linux (Debian)](https://download.noop.dev/desktop/latest-linux.deb)
+
 ## Noop Documentation
 
 If you are new to Noop or looking for more information on a particular subject, our docs are available in both Noop desktop and web, check out the latest [here](https://noop.app/learn)!
