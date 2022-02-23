@@ -1,7 +1,7 @@
 name:  🔧 feature request
 title: "[Feature]: "
 description: "request the team work on new feature"
-labels: ["enhancement", "feature", "review"]
+labels: [ "feature"]
 assignees:
   - noop-cloud/noop
 body:
