@@ -22,26 +22,20 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: dropdown
+  - type: input
     id: affected-os
     attributes:
       label: Operating System
       description: What Operating System(s) have you experienced this bug on?
-      multiple: true
-      options:
-        - Windows
-        - MacOS
+      placeholder: ex. macOS 12.3
     validations:
       required: false
-  - type: dropdown
+  - type: input
     id: affected-arch
     attributes:
       label: Architecture
       description: What machine architecture(s) have you experienced this bug on?
-      multiple: true
-      options:
-        - amd64
-        - arm64
+      placeholder: ex. amd64
     validations:
       required: false
   - type: dropdown
@@ -49,12 +43,7 @@ body:
     attributes:
       label: Affected Browsers
       description: If using the web application, which browsers have you experiened this bug in?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      placeholder: ex. Google Chrome
     validations:
       required: false
   - type: dropdown
@@ -75,14 +64,11 @@ body:
       options:
         - Local Development
         - Cloud Platform
-  - type: dropdown
+  - type: input
     id: affected-versions
     attributes:
       label:  Noop Version
       description: What version(s) of Noop have you experienced this bug with?
-      multiple: true
-      options:
-        - 0.9.33 (default)
     validations:
       required: false
   - type: textarea
