@@ -1,0 +1,55 @@
+name: Bug Report
+description: "Report a Bug to the Noop Team"
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - noop-inc/engagement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to fill out this bug report!
+  - type: markdown
+    attributes:
+      value: |
+        - Please review open issues labeled as `bugs` to ensure your issue is not a duplicate.
+        - For general questions, ideas and concerns that are not related to a bug, visit our [discussions page](https://github.com/noop-cloud/supreme-garbanzo/discussions)
+  - type: textarea
+    id: system-details
+    attributes:
+      label: System Details
+      description: Please provide relevant details about your local system such as Browser, OS, Noop Desktop verison.
+      placeholder: Noop Desktop 1.2.3, MacOS 12.3
+    validations:
+      required: false
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Please describe the bug with as much details as possible. Feel free to attach screenshots, files or link to public gists for better triaging.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: expectation
+    attributes:
+      label: Expectation
+      description: What did you expect to happen?
+      placeholder: "I expected foo but received bar!"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please copy & paste any relevant log output. It will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](./code-of-conduct.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
