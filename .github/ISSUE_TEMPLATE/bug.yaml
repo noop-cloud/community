@@ -1,9 +1,9 @@
-name: 🐞 bug fix
-description: "file a bug in noop services"
+name: Bug Report
+description: "Report a Bug to the Noop Team"
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
-  - noop-cloud/noop
+  - noop-inc/engagement
 body:
   - type: markdown
     attributes:
@@ -14,61 +14,12 @@ body:
       value: |
         - Please review open issues labeled as `bugs` to ensure your issue is not a duplicate.
         - For general questions, ideas and concerns that are not related to a bug, visit our [discussions page](https://github.com/noop-cloud/supreme-garbanzo/discussions)
-  - type: input
-    id: contact
+  - type: textarea
+    id: system-details
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: input
-    id: affected-os
-    attributes:
-      label: Operating System
-      description: What Operating System(s) have you experienced this bug on?
-      placeholder: ex. macOS 12.3
-    validations:
-      required: false
-  - type: input
-    id: affected-arch
-    attributes:
-      label: Architecture
-      description: What machine architecture(s) have you experienced this bug on?
-      placeholder: ex. amd64
-    validations:
-      required: false
-  - type: dropdown
-    id: affected-browsers
-    attributes:
-      label: Affected Browsers
-      description: If using the web application, which browsers have you experiened this bug in?
-      placeholder: ex. Google Chrome
-    validations:
-      required: false
-  - type: dropdown
-    id: application-variant
-    attributes:
-      label:  Noop Variant
-      description: Which variant(s) of Noop are you experiencing this bug?
-      multiple: true
-      options:
-        - Web
-        - Desktop
-  - type: dropdown
-    id: application-mode
-    attributes:
-      label:  Noop Mode
-      description: Which run time mode(s) of Noop are you experiencing this bug?
-      multiple: true
-      options:
-        - Local Development
-        - Cloud Platform
-  - type: input
-    id: affected-versions
-    attributes:
-      label:  Noop Version
-      description: What version(s) of Noop have you experienced this bug with?
+      label: Description
+      description: Please provide relevant details about your local system such as Browser, OS, Noop Desktop verison.
+      placeholder: Noop Desktop 1.2.3, MacOS 12.3
     validations:
       required: false
   - type: textarea
@@ -85,8 +36,7 @@ body:
     attributes:
       label: Expectation
       description: What did you expect to happen?
-      placeholder: Tell us your expectation
-      value: "I expected foo but received bar!"
+      placeholder: "I expected foo but received bar!"
     validations:
       required: true
   - type: textarea
